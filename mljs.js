@@ -1,10 +1,4 @@
-
-
-
-
-
-
-
+// by Ali
 let darkLightModeButton = document.getElementById("darkModeSwitcher");
 
 let darkMode = localStorage.getItem("darkMode") ? localStorage.getItem("darkMode") : "false";

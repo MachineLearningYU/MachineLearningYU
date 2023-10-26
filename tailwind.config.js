@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./*.{html,js}"],
   theme: {
     extend: {},
   },
@@ -11,4 +11,4 @@ module.exports = {
 }
 
 
-// npx tailwindcss -i ./src/raw-style.css -o ./dist/ml-style.css --watch
+// npx tailwindcss -i ./src/raw-style.css -o ./ml-style.css --watch
